@@ -14,7 +14,7 @@ import java.util.Scanner;
 
             System.out.print((a * b) + (c * (3 - a/(2 *a))));
 
-            System.out.println((2 + (a * b) / 4)^ (c + 2));
+            System.out.print((2 + (a * b) / 4) ^ (c + 2));
 
         }
 }
