@@ -16,6 +16,5 @@ import java.util.Scanner;
 
             System.out.println((2 + (a * b) / 4)^ (c + 2));
 
-
         }
 }
