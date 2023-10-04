@@ -4,7 +4,7 @@ import java.util.Scanner;
 
         public static void main(String[] args) {
 
-            Scanner entrada = Scanner(System.in);
+            Scanner entrada = new Scanner(System.in);
 
             double a = entrada.nextDouble();
             double b = entrada.nextDouble();
@@ -12,9 +12,10 @@ import java.util.Scanner;
 
             entrada.close();
 
-            System.out.print(a * b) + (c * (3 - a/(2 *a)));
+            System.out.print((a * b) + (c * (3 - a/(2 *a))));
 
-            System.out.printnl((2 + (a * b) / 4)^ (c + 2))
+            System.out.println((2 + (a * b) / 4)^ (c + 2));
+
 
         }
 }
